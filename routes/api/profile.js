@@ -6,6 +6,7 @@ const auth = require('../../middleware/auth');
 const { check, validationResult } = require('express-validator');
 const Profile = require('../../models/Profile');
 const User = require('../../models/User');
+const Post = require('../../models/Post');
 
 router.get('/me', auth, async (req, res) => {
   try {
@@ -142,7 +143,8 @@ router.get('/user/:user_id', async (req, res) => {
 //@access Private
 router.delete('/', auth, async (req, res) => {
   try {
-    // @todo - Remove users posts
+    // Remove user posts
+    await Post.deleteMany({ user: req.user.id });
 
     // Remove profile
     await Profile.findOneAndRemove({ user: req.user.id });
@@ -151,7 +153,7 @@ router.delete('/', auth, async (req, res) => {
 
     await User.findOneAndRemove({ _id: req.user.id });
 
-    res.json({ msg: 'User deleted' });
+    res.json({ msg: ' User deleted' });
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
