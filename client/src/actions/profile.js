@@ -231,5 +231,3 @@ export const deleteAccount = () => async dispatch => {
     }
   }
 };
-
-export const SET_ALERT = 'SET_ALERT';
