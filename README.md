@@ -43,7 +43,7 @@ React Hooks - Used for strict function component on client & React components fo
 
 Future Scope: (Coming Soon)
 
-- Addition for personal profile picture Upload, Save and Revert back option.
+- Addition for personal profile picture Upload, Save and Revert back option
 
 - Chat Messenger with Emoticon options
 
