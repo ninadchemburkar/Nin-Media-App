@@ -1,6 +1,6 @@
 #Dev-Hub
 
-MERN Stack Application
+MERN Stack Website
 
 - The website contains a landing page consisting of SIGNUP and Login. It also has developer tab on landing page where it shows profile of the users and other developers of the website without registering in website.
 
