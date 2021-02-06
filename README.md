@@ -51,5 +51,5 @@ Future Scope: (Coming Soon)
 
 - Instant connectivity from Facebook, Instagram, Linkedin, Youtube
 
-- Itch.io inbuild for game project posting option
+
 
