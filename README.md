@@ -2,13 +2,15 @@
 
 MERN Stack Website
 
-- The website contains a landing page consisting of SIGNUP and Login. It also has developer tab on landing page where it shows profile of the users and other developers of the website without registering in website.
+- The website contains a landing page consisting of SIGNUP and Login options. Developer tab on landing page displays the Avilable developers which are regeseterd to the website.
 
-- The Profile image comes from Gravitor. Also, I added field & skills in the profile page and when you click view profile it takes you to the full profile. There is social links that takes to the developers social media profiles and there is Bio Tab, Skill Tab where you can see the details of the person.
+- The Profile have Gravatar feature which allows user to associate an avatar with their email address. View profile option is added to showcase individual profile with their professional information.
 
-- There are also tabs that describe job experience, eduaction background, and company where user or developer currently working in. They also have Github user repository tab.
+- Added tabs that describe job experience, eduaction background, and company where user or developer currently working in. 
 
-- After registration and logging in we land on dashboard which contain edit profile, experience, and education tab for the user where we have an option to add deatils and delete it. Also, user get an option to delete his account.
+- Used Oauth to display Individual projects from the user connected Github.
+
+- After registration and logging in we land on dashboard which contain edit profile, experience, and education tab for the user where user have an option to add deatils and delete it. Also, user get an option to delete his account.
 
 - It also have an alert Reducer within Redux where we can easily set and remove alerts which are displayed when user create, update, delete, and modify the profile and after few seconds alert goes automatically.
 
@@ -34,6 +36,12 @@ Bcrypt - For password hashing encryption with salt for additional security.
 Heroku - To deploy the website using Git for Production purpose.
 
 React Hooks - Used for strict function component on client & React components for User Interface.
+
+Node/Express - For fast tracking development of server-based applications
+
+Redux - Used for state management. 
+
+Axios API - For promised based HTTP request.  
 
 
 
